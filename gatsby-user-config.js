@@ -1,13 +1,12 @@
 module.exports = {
-  title: '2oneweek.dev',
-  description: '원윜의 개발 블로그입니다.',
+  title: 'gatsby-starter-oneweek', // your blog header name
+  description: 'gatsby starter by @2-one-week',
   author: '2-one-week',
-  siteUrl: 'https://2oneweek.dev',
-  introduction: '현재 블로그 개발 중',
-  lang: 'ko', // choose en (english) or ko (korean)
+  siteUrl: 'https://gatsby-starter-oneweek.netlify.com',
+  introduction: 'made by web frontend developer @2-one-week',
+  lang: 'en', // choose en (english) or ko (korean)
   favicon: `./contents/assets/favicon.png`, // Add your favicon
-  blogSEODefaultImage:
-    'https://user-images.githubusercontent.com/63051473/120824154-1e0d8900-c593-11eb-85a3-f17dac451f55.png',
+  blogSEODefaultImageRex: '/default.png/',
   social: {
     twitterId: ``, // Your Twitter account
     githubId: '2-one-week', // Your GitHub account
@@ -17,7 +16,6 @@ module.exports = {
     instagramId: ``, // Your Instagram account
   },
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: '2-one-week/gatsby-starter-oneweek', // Your repository for archive comment
   },
   sponsor: {
@@ -31,5 +29,5 @@ module.exports = {
     lineNumbers: false,
   },
   ga: '0', // Add your google analytics tranking ID
-  mainColor: '#466dfc', // Your blog main color
+  mainColor: '#5B21B6', // Your blog main color
 };

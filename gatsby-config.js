@@ -3,7 +3,7 @@ const userConfig = require('./gatsby-user-config');
 module.exports = {
   siteMetadata: userConfig,
   flags: {
-    DEV_SSR: true,
+    DEV_SSR: false,
   },
   plugins: [
     `gatsby-plugin-typescript`,
