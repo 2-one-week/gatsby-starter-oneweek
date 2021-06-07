@@ -1,8 +1,6 @@
 ---
-title: Resume
-thumbnail:
+title: 'Resume'
 date: 2020-09-22 18:00:00
-category:
 draft: false
 ---
 
