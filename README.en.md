@@ -38,14 +38,14 @@ In this gatsby template...
 
 ```sh
 # create a new Gatsby site using the blog starter
-npx gatsby new my-blog-starter https://github.com/2oneweek/gatsby-starter-oneweek
+npx gatsby new my-blog-starter https://github.com/2-one-week/gatsby-starter-oneweek.git
 ```
 
 > If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
 
 ```sh
 npm install -g gatsby-cli
-gatsby new my-blog-starter https://github.com/2oneweek/gatsby-starter-oneweek
+gatsby new my-blog-starter https://github.com/2-one-week/gatsby-starter-oneweek.git
 ```
 
 ### 2. Start developing

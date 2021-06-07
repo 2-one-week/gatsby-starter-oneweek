@@ -4,7 +4,7 @@ module.exports = {
   author: '2-one-week',
   siteUrl: 'https://gatsby-starter-oneweek.netlify.com',
   introduction: 'made by web frontend developer @2-one-week',
-  lang: 'en', // choose en (english) or ko (korean)
+  lang: 'ko', // choose en (english) or ko (korean)
   favicon: `./contents/assets/favicon.png`, // Add your favicon
   blogSEODefaultImageRex: '/default.png/',
   social: {
