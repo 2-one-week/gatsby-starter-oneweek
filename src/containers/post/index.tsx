@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import Layout from '@containers/layout';
 import SEO from '@components/seo';
 import UserInfo from '@components/user-info';
-import { siteUrl } from '@constants/user-info';
+import { siteUrl, utterances, buyMeACoffeeId } from '@constants/user-info';
 
 import {
   PostNavigator,
@@ -49,8 +49,8 @@ const PostTemplate: FC<IPageTemplate> = React.memo(({ pageContext }) => {
       <PostContent html={html} />
       <PostNavigator previous={previous} next={next} />
       <UserInfo />
-      <SponsorButton />
-      <PostComments url={slug} />
+      {buyMeACoffeeId && <SponsorButton />}
+      {utterances && <PostComments repo={utterances} url={slug} />}
     </Layout>
   );
 });

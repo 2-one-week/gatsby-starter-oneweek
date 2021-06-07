@@ -16,7 +16,7 @@ const {
     linkedinId,
     instagramId,
   },
-  comment: { disqusShortName, utterances },
+  comment: { utterances },
   sponsor: { buyMeACoffeeId },
   mainColor,
 } = userInfoConfig;
@@ -37,6 +37,5 @@ export {
   facebookId,
   linkedinId,
   instagramId,
-  disqusShortName,
   utterances,
 };
