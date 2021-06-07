@@ -3,15 +3,24 @@ import { graphql } from 'gatsby';
 
 import SEO from '@components/seo';
 import Layout from '@containers/layout';
-import { PostContent } from '@containers/post/components';
+import {
+  PostContent,
+  PostDate,
+  PostTitle,
+  PostDivider,
+  PostTags,
+} from '@containers/post/components';
 import { siteUrl } from '@constants/user-info';
 
 export default ({ data }: any) => {
   const { node: resume } = data.allMarkdownRemark.edges[0];
-
+  console.log(resume);
   return (
     <Layout path={'resume'}>
       <SEO title="Resume" url={siteUrl} />
+      <PostTitle title={resume.frontmatter.title} />
+      <PostDate date={resume.frontmatter.date} />
+      <PostDivider />
       <PostContent html={resume.html} />
     </Layout>
   );
@@ -28,6 +37,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
+            category
           }
         }
       }

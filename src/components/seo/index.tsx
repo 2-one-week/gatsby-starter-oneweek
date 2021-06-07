@@ -16,8 +16,15 @@ const SEO: FC<ISEO> = ({
   imageWidth = 1200,
   imageHeight = 630,
 }) => {
-  const { site } = useStaticQuery(graphql`
+  const { site, blogDefaultImage } = useStaticQuery(graphql`
     query SEO {
+      blogDefaultImage: file(absolutePath: { regex: "/default.png/" }) {
+        childImageSharp {
+          fluid(maxWidth: 500) {
+            src
+          }
+        }
+      }
       site {
         siteMetadata {
           title
@@ -38,8 +45,16 @@ const SEO: FC<ISEO> = ({
     ? description
     : site?.siteMetadata?.description!;
 
-  const pageImageUrl = imageUrl ? getUrl(imageUrl) : blogSEODefaultImage;
-
+  const pageImageUrl = imageUrl
+    ? getUrl(imageUrl)
+    : blogDefaultImage
+    ? getUrl(blogDefaultImage.childImageSharp.fluid.src)
+    : site.siteUrl;
+  console.log(
+    imageUrl,
+    blogDefaultImage.childImageSharp.fluid.src,
+    pageImageUrl,
+  );
   return (
     <Helmet titleTemplate={`%s | ${site?.siteMetadata?.title}`}>
       <html lang={Language} />
