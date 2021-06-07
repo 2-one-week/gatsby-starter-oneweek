@@ -50,11 +50,7 @@ const SEO: FC<ISEO> = ({
     : blogDefaultImage
     ? getUrl(blogDefaultImage.childImageSharp.fluid.src)
     : site.siteUrl;
-  console.log(
-    imageUrl,
-    blogDefaultImage.childImageSharp.fluid.src,
-    pageImageUrl,
-  );
+
   return (
     <Helmet titleTemplate={`%s | ${site?.siteMetadata?.title}`}>
       <html lang={Language} />

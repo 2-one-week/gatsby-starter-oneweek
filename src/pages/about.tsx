@@ -14,7 +14,6 @@ import { siteUrl } from '@constants/user-info';
 
 export default ({ data }: any) => {
   const { node: resume } = data.allMarkdownRemark.edges[0];
-  console.log(resume);
   return (
     <Layout path={'resume'}>
       <SEO title="Resume" url={siteUrl} />

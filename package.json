@@ -65,7 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/2oneweek/oneweek-blog"
+    "url": "https://github.com/2oneweek/gatsby-starter-oneweek"
   },
   "browserslist": [
     ">0.25%",
