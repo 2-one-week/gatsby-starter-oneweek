@@ -8,7 +8,7 @@ const Container = styled.section`
   top: 40px;
   overflow: hidden auto;
 
-  @media (max-width: 500px) {
+  @media (max-width: 640px) {
     display: block;
     position: static;
     left: 0;
@@ -39,7 +39,7 @@ const TagBody = styled.ul`
   align-items: flex-start;
   flex-direction: column;
 
-  @media (max-width: 500px) {
+  @media (max-width: 640px) {
     width: 240px;
   }
 `;

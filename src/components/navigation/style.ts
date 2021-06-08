@@ -9,7 +9,7 @@ const Navigation = styled.section`
   margin: 0 20px;
   position: relative;
 
-  @media (max-width: 500px) {
+  @media (max-width: 640px) {
     justify-content: space-between;
     margin: 0;
     h1 {

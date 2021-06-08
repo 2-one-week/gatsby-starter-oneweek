@@ -22,7 +22,7 @@ const Container = styled.li`
   border-radius: 8px;
   overflow: hidden;
   box-shadow: rgb(81 99 120 / 10%) 0px 3px 3px 0px;
-  @media (max-width: 500px) {
+  @media (max-width: 640px) {
     width: 100%;
     height: 360px;
     margin: 15px 0;
@@ -60,7 +60,7 @@ const Background = styled.article`
     white-space: nowrap;
     text-overflow: ellipsis;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 640px) {
     height: 200px;
   }
 `;

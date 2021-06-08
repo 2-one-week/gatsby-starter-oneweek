@@ -27,7 +27,7 @@ const TagItemsWrapper = styled.li`
     font-size: 14px;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 640px) {
     margin: 15px 5px;
   }
 `;
