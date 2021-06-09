@@ -19,6 +19,7 @@ const Container = styled.section`
 const Wrapper = styled.section<{ position: number }>`
   position: ${({ position }) => position > 100 && 'fixed'};
   top: ${({ position }) => position > 100 && '120px'};
+  overflow: hidden auto;
 `;
 
 const TagHeader = styled.h4`
