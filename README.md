@@ -122,6 +122,7 @@ src
   mainColor: `color what you want`
   ...
 }
+```
 
 ### 🍭 꿀팁
 
@@ -154,5 +155,5 @@ src
         @2-one-week
       </a>
     </sup>
-  </sub><small>✌</small>
+  </sub>
 </div>

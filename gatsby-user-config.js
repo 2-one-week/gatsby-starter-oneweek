@@ -28,6 +28,6 @@ module.exports = {
     editable: false,
     lineNumbers: false,
   },
-  ga: '0', // Add your google analytics tranking ID
+  ga: 'G-7NBFQDL5JL', // Add your google analytics tranking ID
   mainColor: '#5B21B6', // Your blog main color
 };

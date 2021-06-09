@@ -6,6 +6,14 @@ module.exports = {
     DEV_SSR: false,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-gtag',
+      options: {
+        trackingId: userConfig.ga,
+        head: true,
+        anonymize: true,
+      },
+    },
     `gatsby-plugin-typescript`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -162,14 +170,6 @@ module.exports = {
             sitemap: `https://${userConfig.siteUrl}/sitemap.xml`,
           },
         ],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: userConfig.ga,
-        head: true,
-        anonymize: true,
       },
     },
   ],
