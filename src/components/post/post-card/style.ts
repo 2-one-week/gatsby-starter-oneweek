@@ -59,6 +59,7 @@ const Background = styled.article`
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    padding: 0 15px;
   }
   @media (max-width: 640px) {
     height: 200px;
