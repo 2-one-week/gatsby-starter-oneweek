@@ -11,7 +11,6 @@ module.exports = {
       options: {
         trackingId: userConfig.ga,
         head: true,
-        anonymize: true,
       },
     },
     `gatsby-plugin-typescript`,
