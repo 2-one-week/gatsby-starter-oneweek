@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/11558f0e-5878-4b66-b041-823224a7a424/deploy-status)](https://app.netlify.com/sites/gatsby-starter-oneweek/deploys)
 
-[영어 README](./README.en.md)
+[English README 🇺🇸](./README.en.md)
 
 이 Gatsby Starter에는...
 
