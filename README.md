@@ -130,7 +130,7 @@ src
 - 파비콘 이미지! (replace file in `/contents/assets/favicon.png`)
 - 블로그 사이트 Default Meta 이미지! (replace file in `/contents/assets/default.png`)
 - Utterances를 위한 repository를 설정해주세요! (`/gatsby-user-config.js`의 repository 주소를 교체해주세요.)
-  - ⚠️ 이 가이드(https://utteranc.es/)를 꼭 확인해주세요.
+  - ⚠️ 이 [가이드](https://utteranc.es)를 꼭 확인해주세요.
 
 ## ☕ 마음에 드셨나요?
 
