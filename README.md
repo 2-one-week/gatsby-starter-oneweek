@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./contents/assets/default.png" width="360px" alt="gatsby-starter-oneweek"/>\
+  <img src="./contents/assets/default.png" width="360px" alt="gatsby-starter-oneweek"/>
 </div>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/11558f0e-5878-4b66-b041-823224a7a424/deploy-status)](https://app.netlify.com/sites/gatsby-starter-oneweek/deploys)
